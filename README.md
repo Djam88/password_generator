@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Module 5 Challenge: Password Generator
 
 ## Overview
@@ -77,3 +78,6 @@ You are required to submit the following for review:
 ---
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+=======
+# password_generator
+>>>>>>> fdd197641e1db0e881843740b457ae687134eff2
