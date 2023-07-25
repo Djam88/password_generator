@@ -93,14 +93,14 @@ console.log("numericCharacters: ", numericCharacters);
 console.log("lowerCasedCharacters: ", lowerCasedCharacters);
 console.log("upperCasedCharacters: ", upperCasedCharacters);
 
-/// Function to prompt user for password options
+//Function to prompt user for password options
 function getPasswordOptions() {
   console.log("--- Getting password options ---");
   var length = parseInt(
     prompt("Enter the length of the password (between 8 and 128)")
   );
 
-  // Validate the length
+  // Validate the length of the password
   if (length < 8 || length > 128 || isNaN(length)) {
     alert("Invalid password length! Please try again.");
     console.log("Invalid password length");
@@ -116,7 +116,7 @@ function getPasswordOptions() {
   console.log("confirm uppercase:", hasUppercase);
   console.log("confirm numeric:", hasNumeric);
   console.log("confirm special:", hasSpecial);
-  // Validate that at least one character type is selected
+  // Validate that at least one character type
   if (!(hasLowercase || hasUppercase || hasNumeric || hasSpecial)) {
     alert("You must select at least one character type!");
     console.log("No character type selected");
