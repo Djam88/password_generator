@@ -150,7 +150,7 @@ function getRandom(arr) {
 function generatePassword() {
   console.log("--- Generating password ---");
   var options = getPasswordOptions();
-
+  console.log(options);
   if (!options) {
     // If user cancels or provides invalid input, return an empty string
     return "";
