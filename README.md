@@ -20,6 +20,10 @@ This is a password generator application that allows you to generate a password 
 
 The application has been tested to ensure it satisfies the acceptance criteria specified by the challenge.
 
+![Password Generator Screenshot 1](./images/Screenshot%202023-07-25%20233415.png)
+![Password Generator Screenshot 1](./images/Screenshot%202023-07-25%20233445.png)
+![Password Generator Screenshot 1](./images/Screenshot%202023-07-25%20233539.png)
+
 ## Compatibility
 
 The application should work on all modern web browsers, including Chrome, Firefox, Safari, and Edge.
